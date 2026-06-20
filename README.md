@@ -17,7 +17,7 @@ Setup Gameside Training Mod:
 
 Setup Deep Reinforcement Learning:
 1. Replace "...\\reward_accumulant.txt" of [settings.json](https://github.com/jimmyjjz/TBB-DRL/blob/main/DRL_component/settings.json) with the path of [reward_accumulant](https://github.com/jimmyjjz/TBB-DRL/blob/main/DRL_component/reward_accumulant.txt).txt
-2. [Install python 3.11](https://www.python.org/downloads/release/python-3110/) or [use conda(python built-in)](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html) or [use pycharm(python built-in)(I am using this). I am using pycharm.](https://www.jetbrains.com/pycharm/download/?section=windows). More options exist.
+2. [Install python 3.11](https://www.python.org/downloads/release/python-3110/) or [use conda(python built-in)](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html) or [use pycharm(python built-in)(I am using this)](https://www.jetbrains.com/pycharm/download/?section=windows). More options exist.
 3. Install dependencies. If pip is not installed(will be installed if using conda or pycharm or most if not all venv), [install it](https://pip.pypa.io/en/stable/installation/), and path via environmental variables.
 ```
 pip install numpy==1.26.4 pillow==11.2.1 gymnasium==1.0.0 dxcam==0.0.5 pydirectinput==1.0.4 stable-baselines3==2.6.0
